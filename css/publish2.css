@@ -1,0 +1,74 @@
+ul#publish2-settings_navigation {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 54px;
+}
+
+ul#publish2-settings_navigation li {
+	float: left;
+	margin-right: 5px;
+}
+
+ul#publish2-settings_navigation li a {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background-color: #dfdfdf;
+}
+
+ul#publish2-settings_navigation li a:hover {
+	background-color: #CCCCCC;
+}
+
+ul#publish2-settings_navigation li a.active {
+	background-color: #d4e4f2;
+}
+
+ul#publish2-settings_navigation li a.enabled {
+	background-image: url(../img/enabled_icon_w110.png);
+	background-position: 10px 45px;
+	background-repeat: no-repeat;
+}
+
+ul#publish2-settings_navigation li a.disabled {
+	background-image: url(../img/disabled_icon_w110.png);
+	background-position: 10px 45px;
+	background-repeat: no-repeat;
+}
+
+span#publish2URLnotice {
+	margin-left: 5px;
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+span#publish2URLnotice.testingURL {
+	background-image: url(../img/ajax-loader.gif);
+}
+
+span#publish2URLnotice.badURL {
+	background-image: url(../img/red_x_w14.png);
+}
+
+span#publish2URLnotice.goodURL {
+	background-image: url(../img/green_check_w14.png);
+}
+
+input.publish2URL.needURL {
+	background-color: #F6F9E0;
+}
+
+input.publish2URL.badURL {
+	background-color: #FF797C;
+}
+
+input.publish2URL.goodURL {
+	
+}

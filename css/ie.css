@@ -1,0 +1,66 @@
+/* @group Pagination stuff */
+
+#p2-pagination {
+	margin: 0;
+	padding: 0;
+}
+
+#p2-pagination_prev {
+	border: none;
+	width: 20px;
+	height: 30px;
+	background: none;
+}
+
+#p2-pagination_prev:hover {
+	border: none;
+}
+
+#p2-pagination_prev:active {
+	background: none;
+}
+
+#p2-pagination_prev-button {
+	background: url(../img/left_arrow_dark.gif) no-repeat;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#p2-pagination_prev-button:hover {
+	background: url(../img/left_arrow_dark.gif) no-repeat;
+}
+
+#p2-pagination_next {
+	border: none;
+	width: 20px;
+	height: 30px;
+	background: none;
+}
+
+#p2-pagination_next:hover {
+	border: none;
+}
+
+#p2-pagination_next:active {
+	background: none;
+}
+
+#p2-pagination_next-button {
+	background: url(../img/right_arrow_dark.gif) no-repeat;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#p2-pagination_next-button:hover {
+	background: url(../img/right_arrow_dark.gif) no-repeat;
+}
+
+/* @end */
+
+.p2-link_action {
+	width: 235px !important;
+}
+
+.p2-link_video {
+	display: none;
+}
